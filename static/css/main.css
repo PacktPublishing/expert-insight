@@ -37,6 +37,9 @@ a:hover {
   color: #B3B3B3;
   text-decoration: underline;
 }
+a:focus{
+  color: #757575;
+}
 
 /* Layout */
 .main-layout {
@@ -129,7 +132,7 @@ div.social{
   width:20%;
   text-align: center;
   color: #fd7e14;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .share-page {
