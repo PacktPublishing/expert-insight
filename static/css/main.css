@@ -84,7 +84,7 @@ footer {
 /* Left column */
 div.col-sm-3 {
   margin-top: 100px;
-  font-size: 11px;
+  font-size: 13.5px;
   color: #666;
 }
 div.col-sm-3 strong {
@@ -160,7 +160,7 @@ div.social{
 
 div.fixed-condition div.profile-img{
   text-align:center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 div.profile-img img{
@@ -169,14 +169,14 @@ div.profile-img img{
 }
 
 div.fixed-condition{
-  max-width: 200px;
+  max-width: 215px;
 }
 
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
     position: fixed;
-    max-width: 200px;
+    max-width: 215px;
   }
 }
 @media (max-width: 768px) {
