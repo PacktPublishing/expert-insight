@@ -158,10 +158,6 @@ div.profile-img img{
   width:100%;
 }
 
-div.fixed-condition{
-  max-width: 180px;
-}
-
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
