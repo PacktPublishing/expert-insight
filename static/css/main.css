@@ -127,6 +127,8 @@ div.social{
 .social div.socIco{
   width:25%;
   text-align: center;
+  color: #3fa757;
+  font-size: 1.5em;
 }
 .social ul {
   list-style-type: none;
