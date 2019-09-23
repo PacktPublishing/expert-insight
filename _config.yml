@@ -15,14 +15,14 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
+    - icon: fa-facebook-f
       link: "https://www.facebook.com/PacktPub/"
     - icon: fa-twitter
       link: "https://twitter.com/PacktPub"
-    - icon: fa-linkedin
+    - icon: fa-linkedin-in
       link: "https://www.linkedin.com/company/packt-publishing/"
-    - icon: fa-stack-exchange
-      link: "#"
+    - icon: fa-youtube
+      link: "https://www.youtube.com/user/packt1000/featured"
     - icon: fa-github
       link: "https://github.com/PacktPublishing"
 
