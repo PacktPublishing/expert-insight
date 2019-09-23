@@ -149,9 +149,12 @@ div.col-sm-3 div.profile-about {
   max-width: 100%
 }
 
-div.fixed-condition img.profile-img{
-    width:100%;
-    text-align:center;
+div.fixed-condition div.profile-img{
+  text-align:center;
+}
+
+div.profile-img img{
+  width:100%;
 }
 
 div.fixed-condition{
