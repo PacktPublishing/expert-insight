@@ -1,8 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
+title: Packt Publishing
+description: Packt Publishing Github Page
+author: Packt Publishing
+github: https://github.com/PacktPublishing
+about: Providing books, eBooks, video tutorials, and articles for IT developers, administrators, and users.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 
@@ -16,15 +16,15 @@ collections:
 
 social:
     - icon: fa-facebook
-      link: "#"
+      link: "https://www.facebook.com/PacktPub/"
     - icon: fa-twitter
-      link: "#"
+      link: "https://twitter.com/PacktPub"
     - icon: fa-linkedin
-      link: "#"
+      link: "https://www.linkedin.com/company/packt-publishing/"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/PacktPublishing"
 
 share:
   twitter_username: github.io
