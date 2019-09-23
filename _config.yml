@@ -31,12 +31,10 @@ share:
   fb_appid: 1749788565247320
 
 urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    - text: Official Website
+      url: https://www.packtpub.com/
+    - text: Wiki
+      url: https://en.wikipedia.org/wiki/Packt
 
 url: "https://sabypackt.github.io"
 baseurl: ""
