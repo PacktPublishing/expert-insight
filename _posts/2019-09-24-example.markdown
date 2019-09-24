@@ -5,47 +5,77 @@ date:   2019-09-24 01:56:15 +0530
 categories: []
 ---
 
-Images: 
+### Images
 
-Create new folder "Name_of_the_post" in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
-Images can be inserted this way: \!\[alt_text\]\(https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png)
+* Create new folder `Name_of_the_post` in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/\_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
+* Images can be inserted this way: `\!\[alt_text\]\(https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/\_posts/Name_of_the_post/img_name.png)`
 
-Code: Uses Jekyll Rouge for language-specific syntax highlighting. \{% highlight langName %} CODE GOES HERE \{% endhighlight %}.
-Follow the list in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
-Example: 
+### Code:
 
-\{% highlight ruby %}
+* Uses Jekyll Rouge for language-specific syntax highlighting.
+* `\{% highlight langName %} CODE GOES HERE \{% endhighlight %}`
+* Follow the list of languages and lexers given in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 
-CODE GOES HERE
+**Example:** 
+> \{% highlight ruby %}
+> \# sample program
+> print "Hello, World!\n"
+> \{% endhighlight %}
 
-\{% endhighlight %}
+This will be displayed in the article as follows:
+
+{% highlight ruby %}
+\# sample program
+print "Hello, World!\n"
+{% endhighlight %}
 
 For any language not found in the list, simply use :
 
-\`\`\`
+> \`\`\`
+> \# sample program
+> print "Hello, World!\n"
+> \`\`\`
 
-CODE GOES HERE
+This will be displayed in the article as follows:
 
-\`\`\`
+> \\\
+> \# sample program
+> print "Hello, World!\n"
+> \\\
 
+### Bold:
 
-Bold: \*\*Text\*\* [OR] \_\_Text\_\_
+`\*\*Text\*\*` OR `\_\_Text\_\_` will be displayed as **Text**
 
-Italics: \*Text\* [OR] \_Text\_
+### Italics
 
-Bold+Italics: \*\*\*Text\*\*\* [OR] \_\_\_Text\_\_\_ [OR] \_\_\*Text\*\_\_ [OR] \*\*\_Text\_\*\*
+`\*Text\*` OR `\_Text\_` will be displayed as *Text*
 
-CIT: \`Text\`
+### Bold+Italics
 
-Highlight Box (Tip, Note): 
+`\*\*\*Text\*\*\*` OR `\_\_\_Text\_\_\_` OR `\_\_\*Text\*\_\_` OR `\*\*\_Text\_\*\*` will be displayed as ***Text***
+
+### Inline Code
+
+``\`Text\``  will be displayed as `Text`
+
+### Highlight Box (Tip, Note)
 
 \> CONTENT GOES HERE...
 
+will be displayed as
 
-Headings:
+> CONTENT GOES HERE...
 
-\# Heading Level 1
-\#\# Heading Level 2
-\#\#\# Heading Level 3
-\#\#\#\# Heading Level 4
-\#\#\#\#\# Heading Level 5
+### Headings
+
+\# Heading Level 1 will be displayed as:
+# Heading Level 1
+\#\# Heading Level 2 will be displayed as:
+## Heading Level 2
+\#\#\# Heading Level 3 will be displayed as:
+### Heading Level 3
+\#\#\#\# Heading Level 4 will be displayed as:
+#### Heading Level 4
+\#\#\#\#\# Heading Level 5 will be displayed as:
+##### Heading Level 5
