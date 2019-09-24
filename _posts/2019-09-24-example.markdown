@@ -13,7 +13,7 @@ categories: []
 ### Code:
 
 * Uses Jekyll Rouge for language-specific syntax highlighting.
-* `\{% highlight langName %} CODE GOES HERE \{% endhighlight %}`
+* `{% highlight langName %} CODE GOES HERE {% endhighlight %}`
 * Follow the list of languages and lexers given in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 
 **Example:** 
