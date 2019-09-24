@@ -8,45 +8,44 @@ categories: []
 Images: 
 
 Create new folder "Name_of_the_post" in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
-Images can be inserted this way: \!\[alt_text\]\(https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png\)
+Images can be inserted this way: \!\[alt_text\]\(https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png)
 
-Code: Uses Jekyll Rouge for language-specific syntax highlighting. {% highlight langName %} CODE GOES HERE {% endhighlight %}.
+Code: Uses Jekyll Rouge for language-specific syntax highlighting. \{% highlight langName %} CODE GOES HERE \{% endhighlight %}.
 Follow the list in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 Example: 
 
-{% highlight ruby %}
+\{% highlight ruby %}
 
 CODE GOES HERE
 
-{% endhighlight %}
+\{% endhighlight %}
 
 For any language not found in the list, simply use :
 
-
-```
+\`\`\`
 
 CODE GOES HERE
 
-```
+\`\`\`
 
 
-Bold: **Text** [OR] __Text__
+Bold: \*\*Text\*\* [OR] \_\_Text\_\_
 
-Italics: *Text* [OR] _Text_
+Italics: \*Text\* [OR] \_Text\_
 
-Bold+Italics: ***Text*** [OR] ___Text___ [OR] __*Text*__ [OR] **_Text_**
+Bold+Italics: \*\*\*Text\*\*\* [OR] \_\_\_Text\_\_\_ [OR] \_\_\*Text\*\_\_ [OR] \*\*\_Text\_\*\*
 
-CIT: `Text`
+CIT: \`Text\`
 
 Highlight Box (Tip, Note): 
 
-> CONTENT GOES HERE...
+\> CONTENT GOES HERE...
 
 
 Headings:
 
-# Heading Level 1
-## Heading Level 2
-### Heading Level 3
-#### Heading Level 4
-##### Heading Level 5
+\# Heading Level 1
+\#\# Heading Level 2
+\#\#\# Heading Level 3
+\#\#\#\# Heading Level 4
+\#\#\#\#\# Heading Level 5
