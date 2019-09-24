@@ -8,7 +8,7 @@ categories: []
 Images: 
 
 Create new folder "Name_of_the_post" in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
-Images can be inserted this way: \![alt_text](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png)
+Images can be inserted this way: \!\[alt_text\]\(https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png\)
 
 Code: Uses Jekyll Rouge for language-specific syntax highlighting. {% highlight langName %} CODE GOES HERE {% endhighlight %}.
 Follow the list in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
