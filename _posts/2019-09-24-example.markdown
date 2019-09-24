@@ -13,14 +13,16 @@ categories: []
 ### Code:
 
 * Uses Jekyll Rouge for language-specific syntax highlighting.
-* `{% highlight langName %} CODE GOES HERE {% endhighlight %}`
+* {% raw %}{% highlight langName %}{% endraw %} CODE GOES HERE {% raw %}{% endhighlight %}{% endraw %}
 * Follow the list of languages and lexers given in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 
 **Example:** 
-> \{% highlight ruby %}
-> \# sample program
-> print "Hello, World!\n"
-> \{% endhighlight %}
+{% highlight text %}
+{% raw %}{% highlight ruby %}{% endraw %}
+\# sample program
+print "Hello, World!\n"
+{% raw %}{% endhighlight %}{% endraw %}
+{% endhighlight %}
 
 This will be displayed in the article as follows:
 
@@ -31,33 +33,33 @@ print "Hello, World!\n"
 
 For any language not found in the list, simply use :
 
-> \`\`\`
-> \# sample program
-> print "Hello, World!\n"
-> \`\`\`
+\`\`\`
+\# sample program
+print "Hello, World!\n"
+\`\`\`
 
 This will be displayed in the article as follows:
 
-> \\\
-> \# sample program
-> print "Hello, World!\n"
-> \\\
+'''
+\# sample program
+print "Hello, World!\n"
+'''
 
 ### Bold:
 
-`\*\*Text\*\*` OR `\_\_Text\_\_` will be displayed as **Text**
+`**Text**` OR `__Text__` will be displayed as **Text**
 
 ### Italics
 
-`\*Text\*` OR `\_Text\_` will be displayed as *Text*
+`*Text*` OR `_Text_` will be displayed as *Text*
 
 ### Bold+Italics
 
-`\*\*\*Text\*\*\*` OR `\_\_\_Text\_\_\_` OR `\_\_\*Text\*\_\_` OR `\*\*\_Text\_\*\*` will be displayed as ***Text***
+`***Text***` OR `___Text___` OR `__*Text*__` OR `**_Text_**` will be displayed as ***Text***
 
 ### Inline Code
 
-``\`Text\``  will be displayed as `Text`
+```Text```  will be displayed as `Text`
 
 ### Highlight Box (Tip, Note)
 
