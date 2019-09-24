@@ -5,18 +5,18 @@ date:   2019-09-24 01:56:15 +0530
 categories: []
 ---
 
-### Images
+## Images
 
 * Create new folder `Name_of_the_post` in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/\_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
 * Images can be inserted this way: `![alt_text](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png)`
 
-### Code:
+## Code snippets
 
 * Uses Jekyll Rouge for language-specific syntax highlighting.
 * `{% raw %}{% highlight langName %}{% endraw %} CODE GOES HERE {% raw %}{% endhighlight %}{% endraw %}`
 * Follow the list of languages and lexers given in this link: [https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
 
-**Example:** 
+### Example:
 
 > {% raw %}{% highlight ruby %}{% endraw %}
 >
@@ -25,7 +25,6 @@ categories: []
 > print "Hello, World!\n"
 >
 > {% raw %}{% endhighlight ruby %}{% endraw %}
-
 
 This will be rendered as follows:
 
@@ -51,29 +50,29 @@ This will be rendered as follows:
 print "Hello, World!\n"
 ```
 
-### Bold:
+## Bold
 
 `**Text**` OR `__Text__` will be displayed as **Text**
 
-### Italics
+## Italics
 
 `*Text*` OR `_Text_` will be displayed as *Text*
 
-### Bold+Italics
+## Bold+Italics
 
 `***Text***` OR `___Text___` OR `__*Text*__` OR `**_Text_**` will be displayed as ***Text***
 
-### Inline Code
+## Inline Code
 
 ```Text```  will be displayed as `Text`
 
-### Highlight Box (Tip, Note)
+## Highlight Box (Tip, Note)
 
 `\> CONTENT GOES HERE...` will be displayed as
 
 > CONTENT GOES HERE...
 
-### Headings
+## Headings
 
 `\# Heading Level 1` will be rendered as:
 # Heading Level 1
