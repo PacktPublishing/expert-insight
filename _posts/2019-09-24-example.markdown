@@ -44,7 +44,7 @@ For any language not found in the list, simply use :
 >
 > \`\`\`
 
-This will be displayed in the article as follows:
+This will be rendered as follows:
 
 ``` 
 # sample program
@@ -69,21 +69,19 @@ print "Hello, World!\n"
 
 ### Highlight Box (Tip, Note)
 
-\> CONTENT GOES HERE...
-
-will be displayed as
+`\> CONTENT GOES HERE...` will be displayed as
 
 > CONTENT GOES HERE...
 
 ### Headings
 
-\# Heading Level 1 will be displayed as:
+`\# Heading Level 1` will be rendered as:
 # Heading Level 1
-\#\# Heading Level 2 will be displayed as:
+`\#\# Heading Level 2` will be rendered as:
 ## Heading Level 2
-\#\#\# Heading Level 3 will be displayed as:
+`\#\#\# Heading Level 3` will be rendered as:
 ### Heading Level 3
-\#\#\#\# Heading Level 4 will be displayed as:
+`\#\#\#\# Heading Level 4` will be rendered as:
 #### Heading Level 4
-\#\#\#\#\# Heading Level 5 will be displayed as:
+`\#\#\#\#\# Heading Level 5` will be rendered as:
 ##### Heading Level 5
