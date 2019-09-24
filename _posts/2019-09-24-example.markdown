@@ -33,15 +33,15 @@ print "Hello, World!\n"
 
 For any language not found in the list, simply use :
 
-\`\`\`
-# sample program
-print "Hello, World!\n"
-\`\`\`
+> \`\`\`
+> \# sample program
+> print "Hello, World!\n"
+> \`\`\`
 
 This will be displayed in the article as follows:
 
 ``` 
-\# sample program
+# sample program
 print "Hello, World!\n"
 ```
 
