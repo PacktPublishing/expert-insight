@@ -38,7 +38,9 @@ Bold+Italics: ***Text*** [OR] ___Text___ [OR] __*Text*__ [OR] **_Text_**
 
 CIT: `Text`
 
-Highlight Box (Tip, Note): > CONTENT GOES HERE...
+Highlight Box (Tip, Note): 
+
+> CONTENT GOES HERE...
 
 
 Headings:
