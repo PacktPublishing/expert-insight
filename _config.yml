@@ -3,7 +3,7 @@ description: Packt Publishing Github Page
 author: Packt Publishing
 github: https://github.com/PacktPublishing
 about: Providing books, eBooks, video tutorials, and articles for IT developers, administrators, and users.
-disqus_shortname: stackproblems
+disqus_shortname: 
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
