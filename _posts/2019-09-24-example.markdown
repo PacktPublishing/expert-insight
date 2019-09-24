@@ -68,7 +68,7 @@ print "Hello, World!\n"
 
 ## Highlight Box (Tip, Note)
 
-`\> CONTENT GOES HERE...` will be displayed as
+`> CONTENT GOES HERE...` will be displayed as
 
 > CONTENT GOES HERE...
 
