@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Setup Django in apache2 Raspberry Pi"
+date:   2019-09-24 01:56:15 +0530
+categories: []
+---
+
+Images: 
+
+Create new folder "Name_of_the_post" in [https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts) and upload images for the article there.
+Images can be inserted this way: \![alt_text](https://github.com/sabypackt/sabypackt.github.io/tree/master/static/img/_posts/Name_of_the_post/img_name.png)
+
+Code: Uses Jekyll Rouge for language-specific syntax highlighting. {% highlight langName %} CODE GOES HERE {% endhighlight %}.
+Follow the list in this link: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
+Example: 
+
+{% highlight ruby %}
+
+CODE GOES HERE
+
+{% endhighlight %}
+
+For any language not found in the list, simply use :
+
+
+```
+
+CODE GOES HERE
+
+```
+
+
+Bold: **Text** [OR] __Text__
+
+Italics: *Text* [OR] _Text_
+
+Bold+Italics: ***Text*** [OR] ___Text___ [OR] __*Text*__ [OR] **_Text_**
+
+CIT: `Text`
+
+Highlight Box (Tip, Note): > CONTENT GOES HERE...
+
+
+Headings:
+
+# Heading Level 1
+## Heading Level 2
+### Heading Level 3
+#### Heading Level 4
+##### Heading Level 5
