@@ -40,15 +40,15 @@ print "Hello, World!\n"
 
 ## Bold
 
-`**Text**` OR `__Text__` will be rendered as **Text**
+`**Text**` or `__Text__` will be rendered as **Text**
 
 ## Italics
 
-`*Text*` OR `_Text_` will be rendered as *Text*
+`*Text*` or `_Text_` will be rendered as *Text*
 
 ## Bold+Italics
 
-`***Text***` OR `___Text___` OR `__*Text*__` OR `**_Text_**` will be rendered as ***Text***
+`***Text***` or `___Text___` or `__*Text*__` or `**_Text_**` will be rendered as ***Text***
 
 ## Inline Code
 
