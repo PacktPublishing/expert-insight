@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 h1 {
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 h2, h3 {
   margin-bottom: 5px;
@@ -159,8 +159,12 @@ div.fixed-condition{
   max-width: 215px;
 }
 
-h1{
-  font-size: 35px;
+h1.post-title{
+  margin-bottom: 0px;
+}
+
+div.post hr{
+  margin-top: 5px;
 }
 
 /* Responsive Conditional */
