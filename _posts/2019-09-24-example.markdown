@@ -19,12 +19,6 @@ categories: []
 ### Example:
 
 > {% raw %}{% highlight ruby %}{% endraw %} <br /> \# sample program <br /> print "Hello, World!\n" <br /> {% raw %}{% endhighlight ruby %}{% endraw %}
->
-> \# sample program
->
-> print "Hello, World!\n"
->
-> {% raw %}{% endhighlight ruby %}{% endraw %}
 
 This will be rendered as follows:
 
@@ -35,7 +29,7 @@ print "Hello, World!\n"
 
 For any language not found in the list, simply use :
 
-> \`\`\`
+> \`\`\` <br /> \# sample program <br /> print "Hello, World!\n" <br /> \`\`\`
 >
 > \# sample program
 >
