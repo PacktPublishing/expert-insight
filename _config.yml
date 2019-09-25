@@ -31,8 +31,10 @@ share:
   fb_appid: 1749788565247320
 
 urls:
+    - text: Packt Expert Network
+      url: sabypackt.github.io
     - text: Official Website
-      url: https://www.packtpub.com/
+      url: https://sabypackt.github.io/packt_expert_netwok
     - text: Wiki
       url: https://en.wikipedia.org/wiki/Packt
 
