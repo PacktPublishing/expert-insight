@@ -159,6 +159,10 @@ div.fixed-condition{
   max-width: 215px;
 }
 
+h1{
+  font-size: 35px;
+}
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
