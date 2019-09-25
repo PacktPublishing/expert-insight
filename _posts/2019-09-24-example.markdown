@@ -64,7 +64,7 @@ print "Hello, World!\n"
 
 ## Inline Code
 
-```Text```  will be displayed as `Text`
+`` `Text` ``  will be displayed as `Text`
 
 ## Highlight Box (Tip, Note)
 
