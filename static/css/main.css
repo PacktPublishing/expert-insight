@@ -155,16 +155,17 @@ div.profile-img img{
   border-radius: 50%;
 }
 
-div.fixed-condition{
-  max-width: 215px;
-}
-
 h1.post-title{
   margin-bottom: 0px;
 }
 
-div.post hr{
+span.categories+hr{
   margin-top: 5px;
+}
+
+
+div.fixed-condition{
+  max-width: 215px;
 }
 
 /* Responsive Conditional */
