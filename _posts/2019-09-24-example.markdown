@@ -18,7 +18,7 @@ categories: []
 
 ### Example:
 
-> {% raw %}{% highlight ruby %}{% endraw %}
+> {% raw %}{% highlight ruby %}{% endraw %} <br /> \# sample program <br /> print "Hello, World!\n" <br /> {% raw %}{% endhighlight ruby %}{% endraw %}
 >
 > \# sample program
 >
