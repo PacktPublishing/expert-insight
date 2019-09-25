@@ -127,6 +127,7 @@ div.social{
   margin: 15px 0;
   text-align: center;
 }
+
 .social div.socIco{
   display: inline-block;
   width:20%;
@@ -163,6 +164,13 @@ span.categories+hr{
   margin-top: 5px;
 }
 
+blockquote p{
+  font-size:16px;
+}
+
+li{
+  margin-bootom: 0.35em;
+}
 
 div.fixed-condition{
   max-width: 215px;
