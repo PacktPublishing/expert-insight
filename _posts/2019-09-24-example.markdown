@@ -12,9 +12,9 @@ categories: []
 
 ## Code snippets
 
-* Uses Jekyll Rouge for language-specific syntax highlighting.
+* Uses Rouge for language-specific syntax highlighting.
 * `{% raw %}{% highlight langName %}{% endraw %} CODE GOES HERE {% raw %}{% endhighlight %}{% endraw %}`
-* Follow the list of languages and lexers given in this link: [https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
+* Follow the list of supported languages and lexers given in this link: [https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
 
 ### Example:
 
@@ -30,12 +30,6 @@ print "Hello, World!\n"
 For any language not found in the list, simply use :
 
 > \`\`\` <br /> \# sample program <br /> print "Hello, World!\n" <br /> \`\`\`
->
-> \# sample program
->
-> print "Hello, World!\n"
->
-> \`\`\`
 
 This will be rendered as follows:
 
@@ -46,25 +40,25 @@ print "Hello, World!\n"
 
 ## Bold
 
-`**Text**` OR `__Text__` will be displayed as **Text**
+`**Text**` OR `__Text__` will be rendered as **Text**
 
 ## Italics
 
-`*Text*` OR `_Text_` will be displayed as *Text*
+`*Text*` OR `_Text_` will be rendered as *Text*
 
 ## Bold+Italics
 
-`***Text***` OR `___Text___` OR `__*Text*__` OR `**_Text_**` will be displayed as ***Text***
+`***Text***` OR `___Text___` OR `__*Text*__` OR `**_Text_**` will be rendered as ***Text***
 
 ## Inline Code
 
-`` `Text` ``  will be displayed as `Text`
+`` `Text` ``  will be rendered as `Text`
 
 ## Highlight Box (Tip, Note)
 
-`> CONTENT GOES HERE...` will be displayed as
+`> Content goes here...` will be rendered as
 
-> CONTENT GOES HERE...
+> Content goes here...
 
 ## Headings
 
