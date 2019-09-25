@@ -172,6 +172,10 @@ li{
   margin-bottom: 0.35em;
 }
 
+div#home li{
+  margin-bottom: 0em;
+}
+
 div.fixed-condition{
   max-width: 215px;
 }
