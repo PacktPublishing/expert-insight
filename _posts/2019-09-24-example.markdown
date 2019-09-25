@@ -13,7 +13,7 @@ categories: []
 ## Code snippets
 
 * Uses Rouge for language-specific syntax highlighting.
-* `{% raw %}{% highlight langName %}{% endraw %} CODE GOES HERE {% raw %}{% endhighlight %}{% endraw %}`
+* `{% raw %}{% highlight langName %}{% endraw %} Code goes here... {% raw %}{% endhighlight %}{% endraw %}`
 * Follow the list of supported languages and lexers given in this link: [https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
 
 ### Example:
