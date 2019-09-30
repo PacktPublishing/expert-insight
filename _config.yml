@@ -37,7 +37,7 @@ urls:
       url: https://en.wikipedia.org/wiki/Packt
 
 url: "https://PacktPublishing.github.io/expert-network"
-baseurl: "/expert-network"
+baseurl: "/expert-network/"
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
