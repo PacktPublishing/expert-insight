@@ -130,3 +130,5 @@ In this article, we discussed about functions and we reviewed their syntaxes. We
 _[Extreme C](https://www.packtpub.com/programming/extreme-c?utm_source=libhunt&utm_medium=referral&utm_campaign=Outreach_PEN)_ will help C programmers dig deep into the language and its capabilities. It will help them make the most of C’s power. 
 
 # About the Author
+
+Kamran Amini is an expert software architect with more than 10 years of experience in the analysis, design, development, and building large-scale, distributed enterprise software systems. His skills are not limited to a specific development platform and Kamran’s architectural solutions include a variety of technologies, patterns, and concepts based on C and C++, Java, Python, etc. His passion towards C and C++ has started since his teenage as a lead for his high school’s soccer simulation team and he’s just put it to be his main axis in the career. Recently, blockchain and cryptocurrencies have been the target of his research and interest and because of his deep knowledge about classic cryptography and PKI, working on the expansion of the future possible usages and alternative blockchains are among his interests. 
