@@ -16,7 +16,7 @@ layout: default
   {% if paginator.total_pages > 1 %}
     <ul class="pagination pagination-sm">
       {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+        <li><a href="{{ site.url }}{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
       {% else %}
         <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
       {% endif %}
@@ -29,11 +29,11 @@ layout: default
         {% elsif page == 1 %}
           <li><a href="{{site.url}}">{{ page }}</a></li>
         {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          <li><a href="{{ site.url }}{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
         {% endif %}
       {% endfor %}
 
-      <li><a href="{{ site.url }}page/{{ paginator.total_pages }}/">Last</a></li>
+      <li><a href="{{ site.url }}/page/{{ paginator.total_pages }}/">Last</a></li>
 
       {% if paginator.next_page %}
         <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
