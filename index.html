@@ -11,7 +11,7 @@ layout: default
       {% if post.posted_on == "GitHub Page" %}
         <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <span class="postedSrcLink"><a href="{{ post.posted_on_url }}">{{ post.posted_on }}</a></span> &raquo; <span class="postedDate">{{ post.date | date_to_string }}</span></li>
       {% else %}
-        <li><a href="{{ site.url }}{{ post.article_url }}" target="_blank">{{ post.title }}</a> &raquo; <span class="postedSrcLink"><a href="{{ post.posted_on_url }}" target="_blank">{{ post.posted_on }}</a></span> &raquo; <span class="postedDate">{{ post.date | date_to_string }}</span></li>        
+        <li><a href="{{ post.article_url }}" target="_blank">{{ post.title }}</a> &raquo; <span class="postedSrcLink"><a href="{{ post.posted_on_url }}" target="_blank">{{ post.posted_on }}</a></span> &raquo; <span class="postedDate">{{ post.date | date_to_string }}</span></li>        
       {% endif %}
     {% endfor %}
   </ol>
