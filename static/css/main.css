@@ -184,6 +184,10 @@ div.fixed-condition{
   max-width: 215px;
 }
 
+span.postedSrcLink, span.postedDate{
+  font-size: 0.85em;
+}
+
 /* Responsive Conditional */
 @media (min-width: 1024px) {
   .fixed-condition {
