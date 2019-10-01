@@ -8,7 +8,11 @@ layout: default
 
   <ol class="posts">
     {% for post in paginator.posts %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+      {% if post.posted_on == "GitHub Page"}
+        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> &raquo; <i><a href="{ post.posted_on_url }">{ post.posted_on }</a></i> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+      {% else %}
+        <li><a href="{{ site.url }}{{ post.article_url }}">{{ post.title }}</a> &raquo; <i><a href="{ post.posted_on_url }">{ post.posted_on }</a></i> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>        
+      {% endif %}
     {% endfor %}
   </ol>
 
