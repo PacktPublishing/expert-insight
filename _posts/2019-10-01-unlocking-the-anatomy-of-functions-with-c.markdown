@@ -57,9 +57,9 @@ void func(int a) {
  
 int main(int argc, char** argv) { 
   int x = 3; 
-  printf(“Before function call: %d\n”, x); 
+  printf("Before function call: %d\n", x); 
   func(x); 
-  printf(“After function call: %d\n”, x); 
+  printf("After function call: %d\n", x); 
   return 0; 
 } 
 {% endhighlight %}
@@ -92,11 +92,11 @@ void func(int* a) {
 int main(int argc, char** argv) { 
   int x = 3; 
   int* xptr = &x; 
-  printf(“Value before call: %d\n”, x); 
-  printf(“Pointer before function call: %p\n”, (void*)xptr); 
+  printf("Value before call: %d\n", x); 
+  printf("Pointer before function call: %p\n", (void*)xptr); 
   func(xptr); 
-  printf(“Value after call: %d\n”, x); 
-  printf(“Pointer after function call: %p\n”, (void*)xptr); 
+  printf("Value after call: %d\n", x); 
+  printf("Pointer after function call: %p\n", (void*)xptr); 
   return 0; 
 } 
 {% endhighlight %}
