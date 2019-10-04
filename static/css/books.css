@@ -59,6 +59,7 @@ span.tags:last-child {
   background-position: center center;
 }
 div.book-tags{
+display: inline-block;
 float: left;
 }
 .tag-group {
