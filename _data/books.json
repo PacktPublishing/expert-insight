@@ -5,7 +5,7 @@
   "pubDate": "2018-11-23 00:00:00 +0530",
   "pktURL": "https://www.packtpub.com/big-data-and-business-intelligence/architects-intelligence",
   "amzURL": "https://www.amazon.com/Architects-Intelligence-truth-people-building/dp/1789131510/",
-  "ghURL": ,
+  "gitURL": ,
   "bestseller": true,
   "tags": ["AI","ML","Interviews"]
 },
@@ -15,7 +15,7 @@
   "pubDate": "2018-09-19 00:00:00 +0530",
   "pktURL": "https://www.packtpub.com/big-data-and-business-intelligence/python-machine-learning-second-edition",
   "amzURL": "https://www.amazon.com/Python-Machine-Learning-scikit-learn-TensorFlow/dp/1787125939/",
-  "ghURL": "https://github.com/PacktPublishing/Python-Machine-Learning-Second-Edition",
+  "gitURL": "https://github.com/PacktPublishing/Python-Machine-Learning-Second-Edition",
   "bestseller": true,
   "tags": ["AI","ML","Python"]
 }
