@@ -35,8 +35,6 @@ urls:
       url: https://www.packtpub.com/
     - text: Wiki
       url: https://en.wikipedia.org/wiki/Packt
-    - text: Books
-      url: "https://PacktPublishing.github.io/expert-network/books"
 
 url: "https://PacktPublishing.github.io/expert-network"
 baseurl: ""
