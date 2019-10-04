@@ -18,7 +18,7 @@ layout: default
       <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
         <div class="project-inner">
           <a href="/static/books/{{ i.pktURL }}" class="thickbox" target="_blank">
-            <div class="project-img bordered" style="background-image: url('/static/img/_books/{{ i.ISBN }}.png');"></div>
+            <div class="project-img bordered" style="background-image: url('{{ site.url }}/static/img/_books/{{ i.ISBN }}.png');"></div>
           </a>
              <a class="project-detail" href="{{ i.amzURL }}" target="_blank">
           {% endif %}
