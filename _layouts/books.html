@@ -18,7 +18,7 @@ layout: default
       <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
         <div class="project-inner">
           <a href="/static/books/{{ i.pktURL }}" class="thickbox" target="_blank">
-            <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.ISBN }}');"></div>
+            <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.ISBN }}.png');"></div>
           </a>
              <a class="project-detail" href="{{ i.amzURL }}" target="_blank">
           {% endif %}
@@ -38,7 +38,7 @@ layout: default
           </div>
           <div class="project-footer">
             {% if i.ghURL %}
-              <a href="{{ i.ghURL }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> View code files on GitHub</a>
+              <a href="{{ i.ghURL }}" class="project-link" target="_blank"><i class="fab fa-github"></i>View code files on GitHub</a>
             {% endif %}
             <span class="project-timeline">{{ i.pubDate }}</span>
           </div>
