@@ -30,6 +30,8 @@ span.tags:last-child {
 }
 
 .book-pubdate {
+  font-size: 13px;
+  font-style: italic;
   clear: both;
   display: block;
   width: 100%;
@@ -47,11 +49,6 @@ div.book-tags{
   font-size: 1.35em;
   margin-right: 0.5em;
   text-decoration: none;
-}
-
-.book-links .book-pubdate {
-  font-size: 13px;
-  font-style: italic;
 }
 
 .book-inner > a {
