@@ -30,11 +30,12 @@ span.tags:last-child {
 }
 
 .book-pubdate {
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
   clear: both;
   display: block;
   width: 100%;
+  padding-top: 2px;
 }
 
 div.book-tags{
