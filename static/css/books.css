@@ -44,6 +44,7 @@ span.tags:last-child {
   display: inline-block;
   position: relative;
   float: right;
+  clear: both;
   font-size: 13px;
   font-style: italic;
 }
