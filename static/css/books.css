@@ -32,15 +32,15 @@ span.tags:last-child {
   display: inline-block;
   width: 100%;
 }
-.book-footer .book-repo {
+.book-links .book-repo {
   display: inline-block;
   position: relative;
-  float: left;
+  float: right;
   font-size: 1.15em;
   margin-right: 0.5em;
   text-decoration: none;
 }
-.book-footer .book-pubdate {
+.book-links .book-pubdate {
   display: inline-block;
   position: relative;
   float: right;
@@ -58,7 +58,9 @@ span.tags:last-child {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+div.book-tags{
+float: left;
+}
 .tag-group {
   margin: 0 0 25px 0;
 }
