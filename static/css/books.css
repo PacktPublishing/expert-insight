@@ -11,6 +11,9 @@
 h3.book-name {
   margin: 5px 0;
   font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 span.tags {
