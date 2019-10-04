@@ -32,7 +32,7 @@ span.tags:last-child {
   display: inline-block;
   width: 100%;
 }
-.book-links .book-repo {
+.book-links .book-link {
   display: inline-block;
   position: relative;
   float: right;
@@ -41,8 +41,7 @@ span.tags:last-child {
   text-decoration: none;
 }
 .book-links .book-pubdate {
-  display: inline-block;
-  position: relative;
+  display: block;
   float: right;
   clear: both;
   font-size: 13px;
