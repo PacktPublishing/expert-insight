@@ -8,5 +8,15 @@
   "ghURL": ,
   "bestseller": true,
   "tags": ["AI","ML","Interviews"]
+},
+{
+  "name": "Python Machine Learning - Second Edition",
+  "ISBN": "9781789954531",
+  "pubDate": "2018-09-19 00:00:00 +0530",
+  "pktURL": "https://www.packtpub.com/big-data-and-business-intelligence/architects-intelligence",
+  "amzURL": "https://www.amazon.com/Architects-Intelligence-truth-people-building/dp/1789131510/",
+  "ghURL": ,
+  "bestseller": true,
+  "tags": ["AI","ML","Interviews"]
 }
 ]
