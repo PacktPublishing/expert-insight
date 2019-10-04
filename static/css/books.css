@@ -42,11 +42,14 @@ div.book-tags{
   float: left;
 }
 
+.book-links{
+  display: inline-block;
+  float: right;
+}
+
 .book-links .book-link {
   display: inline-block;
-  position: relative;
-  float: right;
-  font-size: 1.35em;
+  font-size: 1.15em;
   margin-right: 0.5em;
   text-decoration: none;
 }
