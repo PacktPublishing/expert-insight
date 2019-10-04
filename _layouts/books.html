@@ -11,20 +11,20 @@ layout: default
     {{ content }}
 
 
-    <div class="projects">
+    <div class="books">
       {% include book_tags.html %}
       
       {% for i in site.data.books %}
-      <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
-        <div class="project-inner">
-          <a href="{{ i.pktURL }}" class="thickbox" target="_blank">
+      <div class="book-item book-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
+        <div class="book-inner">
+          <a href="{{ i.pktURL }}" target="_blank">
             <div class="book-cover bordered" style="background-image: url('https://raw.githubusercontent.com/PacktPublishing/expert-network/master/static/img/_books/{{ i.ISBN }}.png');"></div>
           </a>
-             <a class="project-detail" href="{{ i.amzURL }}" target="_blank">
-              <h3 class="project-headlines">{{ i.name }}</h3>
+             <a class="book-detail" href="{{ i.pktURL }}" target="_blank">
+              <h3 class="book-name">{{ i.name }}</h3>
             </a>
 
-          <div class="project-content">
+          <div class="book-tags">
             <div class="tag-holder">
               {% if i.tags %}
                 {% for j in i.tags %}
@@ -33,11 +33,12 @@ layout: default
               {% endif %}
             </div>
           </div>
-          <div class="project-footer">
+          <div class="book-footer">
+            <a href="{{ i.amzURL }}" class="book-repo" title="Amazon book page" target="_blank"><i class="fab fa-amazon"></i></a>
             {% if i.ghURL %}
-              <a href="{{ i.ghURL }}" class="project-link" target="_blank"><i class="fab fa-github"></i>View code files on GitHub</a>
+              <a href="{{ i.ghURL }}" class="book-repo" title="View code files on GitHub" target="_blank"><i class="fab fa-github"></i></a>
             {% endif %}
-            <span class="project-timeline">{{ i.pubDate }}</span>
+            <span class="book-pubdate">{{ i.pubDate | date_to_string }}</span>
           </div>
         </div>
         <hr>
