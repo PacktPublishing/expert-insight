@@ -12,7 +12,7 @@ layout: default
 
 
     <div class="projects">
-      {% include project_tags.html %}
+      {% include book_tags.html %}
       
       {% for i in site.data.books %}
       <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
