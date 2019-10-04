@@ -52,7 +52,7 @@ div.book-tags{
 .book-links .book-link {
   display: inline-block;
   font-size: 1.15em;
-  margin-right: 0.5em;
+  margin-left: 0.5em;
   text-decoration: none;
 }
 
