@@ -1,1 +1,51 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">Recent Books</h1>
+    <hr />
+  </header>
 
+  <div class="post-content">
+    {{ content }}
+
+
+    <div class="projects">
+      {% include project_tags.html %}
+      
+      {% for i in site.data.books %}
+      <div class="project-item project-outer" data-tags='{{ i.tags | jsonify | downcase }}'>
+        <div class="project-inner">
+          <a href="/static/books/{{ i.pktURL }}" class="thickbox" target="_blank">
+            <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.ISBN }}');"></div>
+          </a>
+             <a class="project-detail" href="{{ i.amzURL }}" target="_blank">
+          {% endif %}
+            <h3 class="project-headlines">{{ i.name }}</h3>
+          {% if p_url %}
+            </a>
+          {% endif %}
+
+          <div class="project-content">
+            <div class="tag-holder">
+              {% if i.tags %}
+                {% for j in i.tags %}
+                  <span class="tags tag-filter" data-tag="{{ j | downcase }}"><a href="#{{ j }}">{{ j }}</a></span>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+          <div class="project-footer">
+            {% if i.ghURL %}
+              <a href="{{ i.ghURL }}" class="project-link" target="_blank"><i class="fa fa-globe"></i> View code files on GitHub</a>
+            {% endif %}
+            <span class="project-timeline">{{ i.pubDate }}</span>
+          </div>
+        </div>
+        <hr>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>
