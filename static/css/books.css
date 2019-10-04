@@ -21,17 +21,25 @@ span.tags {
   border-bottom: 1px #888 dotted;
   margin: 0 5px;
 }
+
 span.tags:first-child {
   margin-left: 0;
 }
 span.tags:last-child {
   margin-right: 0;
 }
-.book-footer {
+
+.book-pubdate {
   clear: both;
-  display: inline-block;
+  display: block;
   width: 100%;
 }
+
+div.book-tags{
+  display: inline-block;
+  float: left;
+}
+
 .book-links .book-link {
   display: inline-block;
   position: relative;
@@ -40,16 +48,16 @@ span.tags:last-child {
   margin-right: 0.5em;
   text-decoration: none;
 }
+
 .book-links .book-pubdate {
-  display: block;
-  float: right;
-  clear: both;
   font-size: 13px;
   font-style: italic;
 }
+
 .book-inner > a {
   display: block;
 }
+
 .book-cover {
   width: 100%;
   height: 200px;
@@ -58,13 +66,16 @@ span.tags:last-child {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 div.book-tags{
-display: inline-block;
-float: left;
+  display: inline-block;
+  float: left;
 }
+
 .tag-group {
   margin: 0 0 25px 0;
 }
+
 span.tag-cloud {
   margin: 0 2px;
   cursor: pointer;
@@ -73,15 +84,19 @@ span.tag-cloud {
   font-weight: 700;
   display: inline;
 }
+
 .tag-cloud.active {
   background: #ccc;
 }
+
 .book-item.not-show {
   display: none;
 }
+
 a.book-detail h3{
 color:  #fd7e14;
 }
+
 a.book-detail:hover {
   text-decoration: #B3B3B3;
 }
