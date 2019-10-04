@@ -34,10 +34,10 @@ layout: default
             </div>
           </div>
           <div class="book-links">
+            <a href="{{ i.amzURL }}" class="book-link" title="Amazon book page" target="_blank"><i class="fab fa-amazon"></i></a>
             {% if i.gitURL %}
               <a href="{{ i.gitURL }}" class="book-link" title="View code files on GitHub" target="_blank"><i class="fab fa-github"></i></a>
             {% endif %}
-            <a href="{{ i.amzURL }}" class="book-link" title="Amazon book page" target="_blank"><i class="fab fa-amazon"></i></a>
           </div>
           <div class="book-pubdate">{{ i.pubDate | date_to_string }}</div>
         </div>
