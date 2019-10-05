@@ -29,7 +29,8 @@ text-overflow: ellipsis;
   transform: translateY(-1vh);
   display: none;
 }
-.search__results > li {
+.search__results > div {
+  padding: 10px;
   border-top: 1px solid #f0f0f0;
 }
 .search__results > li > a {
@@ -37,9 +38,18 @@ text-overflow: ellipsis;
   padding: 10px;
 }
 .search__result-date {
+  display: inline-block;
   color: #BBB;
-  position: absolute;
-  right: 12px;
+  font-size: 11.5px;
+  font-style: italic;
+  float: right;
+}
+.search__result-type {
+  display: inline-block;
+  color: #BBB;
+  font-size: 11.5px;
+  font-style: italic;
+  float: left;
 }
 .search.is-active {
   opacity: 1;
