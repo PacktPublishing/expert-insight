@@ -3,6 +3,8 @@ title: Search Index Tester
 layout: default
 ---
 
-{% assign searchIdx = site.posts | concat: site.data.books %}
+{% assign posts = site.posts %}
+{% assign books = site.data.books %}
+{% assign searchIdx = posts | concat: books %}
 
 {{ searchIdx }}
