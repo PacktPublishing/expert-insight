@@ -17,6 +17,13 @@ input#js-search__input {
   height: calc(100% - 110px);
   transition: 0.2s ease;
 }
+.search__result-link{
+display: block;
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
 .search__results.is-hidden {
   opacity: 0;
   transform: translateY(-1vh);
