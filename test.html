@@ -3,8 +3,20 @@ title: Search Index Tester
 layout: default
 ---
 
-{% assign posts = site.posts %}
-{% assign books = site.data.books %}
-{% assign searchIdx = posts | concat: books %}
+[
+{% for post in site.posts %}
+  {
+    "name": post.title,
+    "date": post.date,
+    "type": "Article"
+  }
+{% endfor %}
 
-{{ searchIdx }}
+{% for book in site.data.books %}
+  {
+    "name": book.name,
+    "date": book.pubDate,
+    "type": "Book"
+  }
+{% endfor %}
+]
