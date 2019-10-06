@@ -25,7 +25,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
-{% if currBookIdx >= bookLstSize %}
+{% if currBookIdx <= bookLstSize %}
 {% for i in (currBookIdx..bookLstSize) %}
   {
     "name": {{ site.data.books[i].name }},
