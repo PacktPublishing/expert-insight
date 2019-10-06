@@ -19,7 +19,7 @@ layout: default
     "name": {{ site.data.books[currBookIdx].name }},
     "date": {{ site.data.books[currBookIdx].pubDate }},
     "type": "Book",
-    "url": {{ site.data.books[currBookIdx].pktURL }}
+    "url": {{ site.data.books[0].pktURL }}
   },
   {% increment currBookIdx %}
   {% endif %}
