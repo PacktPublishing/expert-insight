@@ -1,7 +1,27 @@
 ---
-title: test
+title: Search Index Tester
 layout: default
 ---
 
-{% assign searchIdx = site.data.test %}
-{{ searchIdx }}
+{% assign bookLstSize = site.data.books.size %}
+{% assign currBookIdx = 0 %}
+[
+{% for post in site.posts %}
+  {% if (post.date | date: '%s') >= (site.data.books[currBookIdx].pubDate | date: '%s') %}
+  {
+    "name": {{ post.title }},
+    "date": {{ post.date }},
+    "type": "Article",
+    "url": {% if post.posted_on == "GitHub Page" %} {{ site.url }}{{ post.url }} {% else %} {{ post.article_url }} {% endif %}
+  },
+  {% else %}
+  {
+    "name": {{ site.data.books[currBookIdx].name }},
+    "date": {{ site.data.books[currBookIdx].pubDate }},
+    "type": "Book",
+    "url": {{ site.data.books[currBookIdx].pktURL }}
+  },
+  {% increment currBookIdx %}
+  {% endif %}
+{% endfor %}
+]
