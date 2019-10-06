@@ -24,7 +24,7 @@ layout: default
   {% increment currBookIdx %}
   {% endif %}
 {% endfor %}
-{{ site.data.books[1].name }}
+{{ site.data.books }}
 {% if currBookIdx <= bookLstSize %}
 {% for i in (currBookIdx..bookLstSize) %}
   {
