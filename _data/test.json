@@ -1,0 +1,23 @@
+---
+title: Search Index Tester
+---
+
+[
+{% for post in site.posts %}
+  {
+    "name": {{ post.title }},
+    "date": {{ post.date }},
+    "type": "Article",
+    "url": {% if post.posted_on == "GitHub Page" %} {{ site.url }}{{ post.url }} {% else %} {{ post.article_url }} {% endif %}
+  },
+{% endfor %}
+
+{% for book in site.data.books %}
+  {
+    "name": {{ book.name }},
+    "date": {{ book.pubDate }},
+    "type": "Book",
+    "url": {{ book.pktURL }}
+  },
+{% endfor %}
+]
