@@ -19,12 +19,12 @@ layout: default
     "name": {{ site.data.books[currBookIdx].name }},
     "date": {{ site.data.books[currBookIdx].pubDate }},
     "type": "Book",
-    "url": {{ site.data.books[0].pktURL }}
+    "url": {{ site.data.books[currBookIdx].pktURL }}
   },
   {% increment currBookIdx %}
   {% endif %}
 {% endfor %}
-{{ site.data.books[currBookIdx].name }}
+{{ site.data.books[0].name }}
 {% if currBookIdx <= bookLstSize %}
 {% for i in (currBookIdx..bookLstSize) %}
   {
