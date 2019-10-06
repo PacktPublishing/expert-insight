@@ -3,7 +3,7 @@ title: Search Index Tester
 layout: default
 ---
 
-{% assign bookLstSize = site.data.books.size %}
+{% assign bookLstSize = site.data.books.size - 1 %}
 {% assign currBookIdx = 0 %}
 [
 {% for post in site.posts %}
@@ -23,5 +23,15 @@ layout: default
   },
   {% increment currBookIdx %}
   {% endif %}
+{% endfor %}
+
+{% if currBookIdx >= bookLstSize %}
+{% for i in (currBookIdx..bookLstSize) %}
+  {
+    "name": {{ site.data.books[i].name }},
+    "date": {{ site.data.books[i].pubDate }},
+    "type": "Book",
+    "url": {{ site.data.books[i].pktURL }}
+  },
 {% endfor %}
 ]
