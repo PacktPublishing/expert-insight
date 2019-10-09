@@ -14,8 +14,6 @@ _This article is an excerpt from the book [Extreme C](https://www.packtpub.com/p
 
 # Functions in C
 
-In this section, we want to recap everything about a C function in a single place.
-
 A function is a box of logic that has a name, a list of input parameters, and a list of output results. In C and many other programming languages that are influenced by C, functions return only one value. In object-oriented languages such as C++ and Java, functions (which are usually called _methods_) can also throw an exception, which is not the case in C. Functions are invoked by a function call, which is simply using the name of the function to execute its logic. A correct function call should pass all required arguments to the function and wait for its execution. Note that functions are always blocking in C. This means that the caller has to wait for the called function to finish and only then can it collect the returned result. 
 
 Opposite to a blocking function, we can have a non-blocking function. When calling a non-blocking function, the caller doesn’t wait for the function to finish and it can continue its execution. In this scheme, there is usually a _callback_ mechanism which is triggered when the called function is finished. A non-blocking function can also be referred to as an _asynchronous function_ or simply an _async function_. Since we don’t have async functions in C, we need to implement them using multithreading solutions.
