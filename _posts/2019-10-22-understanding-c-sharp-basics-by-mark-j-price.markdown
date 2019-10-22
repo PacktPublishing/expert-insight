@@ -94,7 +94,7 @@ There are other contextual keywords that only have a special meaning in a specif
 
 One of the key differences between a human language and a programming language is that developers need to be able to define the new "words" with new meanings. Apart from the 104 keywords in the C# language, this book will teach you about some of the hundreds of thousands of "words" that other developers have defined, but you will also learn how to define your own "words." 
 
-# Help for writing correct code 
+## Help for writing correct code 
 
 Plain text editors such as Notepad don't help you write correct English. Likewise, Notepad won't help you write correct C# either. 
 
@@ -104,7 +104,7 @@ Similarly, Visual Studio Code's C# extension helps you write C# code by highligh
 
 The C# extension constantly watches what you type and gives you feedback by highlighting problems with colored squiggly lines, similar to that of Microsoft Word. 
 
-Verbs are methods 
+## Verbs are methods 
 
 In English, verbs are doing or action words, like run and jump. In C#, doing or action words are called __methods__. There are hundreds of thousands of methods available to C#. In English, verbs change how they are written based on when in time the action happens. For example, Amir was _jumping_ in the past, Beth _jumps_ in the present, they _jumped_ in the past, and Charlie will _jump_ in the future. 
 
@@ -115,11 +115,7 @@ In C#, methods such as `WriteLine` change how they are called or executed based 
 
 Console.WriteLine(); 
 
- 
-
 // outputs the greeting and a carriage-return Console.WriteLine("Hello Ahmed"); 
-
- 
 
 // outputs a formatted number and date and a carriage-return Console.WriteLine( 
 
@@ -128,7 +124,7 @@ Console.WriteLine();
 
 A different analogy is that some words are spelled the same, but have different meanings depending on the context. 
 
-# Nouns are types, fields, and variables 
+## Nouns are types, fields, and variables 
 
 In English, nouns are names that refer to things. For example, Fido is the name of a dog. The word "dog" tells us the type of thing that Fido is, and so in order for Fido to fetch a ball, we would use his name. 
 
