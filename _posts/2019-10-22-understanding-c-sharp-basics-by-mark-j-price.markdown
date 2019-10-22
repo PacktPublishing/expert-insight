@@ -26,7 +26,7 @@ C# indicates the end of a __statement__ with a semicolon. A statement can be com
 var totalPrice = subtotal + salesTax;
 {% endhighlight %}
 
-The expression is made up of an operand named subtotal, an operator +, and another operand named salesTax. The order of operands and operators matters. 
+The expression is made up of an operand named `subtotal`, an operator `+`, and another operand named `salesTax`. The order of operands and operators matters. 
 
 ## Comments 
 
