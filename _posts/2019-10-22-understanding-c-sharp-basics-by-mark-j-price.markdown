@@ -38,7 +38,7 @@ When writing your code, you're able to add comments to explain your code using a
 var totalPrice = subtotal + salesTax;
 {% endhighlight %}
 
-Visual Studio Code will add or remove the comment double slashes at the start of the currently selected line(s) if you press ___Ctrl___ + ___K___ + ___C___ to add them or ___Ctrl___ + ___K___ + ___U___ to remove them. In macOS, press ___Cmd___ instead of Ctrl. 
+Visual Studio Code will add or remove the comment double slashes at the start of the currently selected line(s) if you press ___Ctrl___ + ___K___ + ___C___ to add them or ___Ctrl___ + ___K___ + ___U___ to remove them. In macOS, press ___Cmd___ instead of ___Ctrl___. 
 
 To write a multiline comment, use `/*` at the beginning and `*/` at the end of the comment, as shown in the following code: 
 
