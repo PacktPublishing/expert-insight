@@ -138,9 +138,7 @@ It's worth taking note that the term __type__ is often confused with __class__. 
 
 # Summary 
 
-_To gain a solid foundation with C# 8.0 and .NET Core 3.0, refer to our latest book [C# 8.0 and .NET Core 3.0 - Modern Cross-Platform Development - Fourth Edition](https://www.amazon.com/8-0-NET-Core-3-0-Cross-Platform/dp/1788478126?utm_source=libhunt&utm_packt=referral&utm_campaign=Outreach_PEN) by Mark J. Price.The fourth edition is updated with new chapters on Content Management Systems (CMS) and machine learning with ML.NET, and it dives deep into the Visual Studio Code editor that works across all operating systems._
-
-_Dive deep into the Visual Studio Code editor that works across all operating systems, and the fourth edition is updated with new chapters on Content Management Systems (CMS) and machine learning with ML.NET. To gain a solid foundation with C# 8.0 and .NET Core 3.0, refer to our latest book [C# 8.0 and .NET Core 3.0 - Modern Cross-Platform Development - Fourth Edition](https://www.amazon.com/8-0-NET-Core-3-0-Cross-Platform/dp/1788478126?utm_source=libhunt&utm_packt=referral&utm_campaign=Outreach_PEN) by Mark J. Price._
+_To gain a solid foundation with C# 8.0 and .NET Core 3.0, refer to our latest book [C# 8.0 and .NET Core 3.0 - Modern Cross-Platform Development - Fourth Edition](https://www.amazon.com/8-0-NET-Core-3-0-Cross-Platform/dp/1788478126?utm_source=libhunt&utm_packt=referral&utm_campaign=Outreach_PEN) by Mark J. Price. The fourth edition is updated with new chapters on Content Management Systems (CMS) and machine learning with ML.NET, and it dives deep into the Visual Studio Code editor that works across all operating systems._
 
 # About the Author  
 
