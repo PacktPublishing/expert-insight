@@ -80,7 +80,7 @@ namespace Basics
 
 The C# vocabulary is made up of __keywords__, __symbol characters__, and __types__. 
 
-Some of the predefined, reserved keywords that you will see in this chapter include `using`, `namespace`, `class`, `static`, `int`, `string`, `double`, `bool`, `if`, `switch`, `break`, `while`, `do`, `for`, and `foreach`. 
+Some of the predefined, reserved keywords that you will commonly see include `using`, `namespace`, `class`, `static`, `int`, `string`, `double`, `bool`, `if`, `switch`, `break`, `while`, `do`, `for`, and `foreach`. 
 
 Some of the symbol characters that you will see include `"`, `'`, `+`, `-`, `*`, `/`, `%`, `@`, and `$`. 
 
@@ -88,7 +88,7 @@ By default, Visual Studio Code shows C# keywords in blue in order to make them e
 
 1. In Visual Studio Code, navigate to __Code__ \| __Preferences__ \| __Color Theme__ (it is on the __File__ menu on Windows), or press ___Ctrl___ or ___Cmd___ + ___K___, ___Ctrl___ or ___Cmd___ + ___T___. 
 
-2. Select a color theme. For reference, I'll use the __Light+ (default light)__ color theme so that the screenshots look good in a printed book. 
+2. Select a color theme.
 
 There are other contextual keywords that only have a special meaning in a specific context. However, that still means that there are only about 100 actual C# keywords in the language. The English language has more than 250,000 distinct words, so how does C# get away with only having about one hundred keywords? Moreover, why is C# so difficult to learn if it has only 0.0416% of the amount of words compared to the English language? 
 
@@ -108,7 +108,7 @@ The C# extension constantly watches what you type and gives you feedback by high
 
 In English, verbs are doing or action words, like run and jump. In C#, doing or action words are called __methods__. There are hundreds of thousands of methods available to C#. In English, verbs change how they are written based on when in time the action happens. For example, Amir was _jumping_ in the past, Beth _jumps_ in the present, they _jumped_ in the past, and Charlie will _jump_ in the future. 
 
-In C#, methods such as `WriteLine` change how they are called or executed based on the specifics of the action. This is called __overloading__, which is something we will cover in more detail during _Chapter 5_, _Building Your Own Types with Object-Oriented Programming_. But for now, consider the following example: 
+In C#, methods such as `WriteLine` change how they are called or executed based on the specifics of the action. This is called __overloading__. Consider the following example: 
 
 {% highlight csharp %}
 // outputs a carriage-return  
