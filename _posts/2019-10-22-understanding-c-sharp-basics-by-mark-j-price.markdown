@@ -61,16 +61,10 @@ In your current project, note that the grammar of C# is written for you by the d
 {% highlight csharp %}
 using System; // a semicolon indicates the end of a statement 
 
- 
-
 namespace Basics 
-
 { 
-
   class Program 
-
   { 
-
     static void Main(string[] args) 
 
     { // the start of a block 
@@ -78,9 +72,7 @@ namespace Basics
       Console.WriteLine("Hello World!"); // a statement 
 
     } // the end of a block 
-
   } 
-
 }
 {% endhighlight %}
 
@@ -94,7 +86,7 @@ Some of the symbol characters that you will see include `"`, `'`, `+`, `-`, `*`,
 
 By default, Visual Studio Code shows C# keywords in blue in order to make them easier to differentiate from other code. Visual Studio Code allows you to customize the color scheme. 
 
-1. In Visual Studio Code, navigate to __Code__ | __Preferences__ | __Color Theme__ (it is on the __File__ menu on Windows), or press ___Ctrl___ or ___Cmd___ + ___K___, ___Ctrl___ or ___Cmd___ + ___T___. 
+1. In Visual Studio Code, navigate to __Code__ \| __Preferences__ \| __Color Theme__ (it is on the __File__ menu on Windows), or press ___Ctrl___ or ___Cmd___ + ___K___, ___Ctrl___ or ___Cmd___ + ___T___. 
 
 2. Select a color theme. For reference, I'll use the __Light+ (default light)__ color theme so that the screenshots look good in a printed book. 
 
